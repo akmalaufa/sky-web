@@ -3,6 +3,7 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Profile from './components/Profile'
 import Footer from './components/Footer'
+import Visi from './components/Visi'
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <Profile />
+      <Visi />
       <Footer />
     </main>
   )
