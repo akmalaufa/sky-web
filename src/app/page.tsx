@@ -4,6 +4,7 @@ import Hero from './components/Hero'
 import Profile from './components/Profile'
 import Footer from './components/Footer'
 import Visi from './components/Visi'
+import Proker from './components/Proker'
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Hero />
       <Profile />
       <Visi />
+      <Proker />
       <Footer />
     </main>
   )
